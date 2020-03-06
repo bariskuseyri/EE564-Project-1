@@ -1,12 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{ii}%
+\contentsline {subsection}{\numberline {1.1}Aims}{ii}%
+\contentsline {subsection}{\numberline {1.2}Content}{ii}%
 \contentsline {section}{\numberline {2}Method}{ii}%
 \contentsline {section}{\numberline {3}Modelling}{ii}%
 \contentsline {subsection}{\numberline {3.1}Analytical Modelling}{ii}%
 \contentsline {subsection}{\numberline {3.2}FEA Modelling: 2D - Linear Materials}{ii}%
 \contentsline {subsection}{\numberline {3.3}FEA Modelling: 2D - Nonlinear Materials}{ii}%
 \contentsline {subsection}{\numberline {3.4}Control Method}{ii}%
-\contentsline {subsection}{\numberline {3.5}Analytical Modelling}{ii}%
-\contentsline {subsection}{\numberline {3.6}Motion Animation}{ii}%
-\contentsline {subsection}{\numberline {3.7}FEA Modelling: 3D}{ii}%
-\contentsline {section}{\numberline {4}Results}{ii}%
-\contentsline {section}{\numberline {5}Evaluation}{ii}%
+\contentsline {subsection}{\numberline {3.5}Analytical Modelling}{iii}%
+\contentsline {subsection}{\numberline {3.6}Motion Animation}{iii}%
+\contentsline {subsection}{\numberline {3.7}FEA Modelling: 3D}{iii}%
+\contentsline {section}{\numberline {4}Results}{iii}%
+\contentsline {section}{\numberline {5}Evaluation}{iii}%
