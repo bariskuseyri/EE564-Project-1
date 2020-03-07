@@ -29,12 +29,12 @@ $begin 'InterrogationCache'
 		$begin '129'
 			$begin 'Properties'
 				Volume='0'
-				Area='380.2815118475902'
+				Area='380.28151184759031'
 				Valid=true
 			$end 'Properties'
 			$begin 'BoundingBox'
-				Low[3: -11.927121508644991, -11.927121508644991, 0]
-				High[3: 11.927121508644991, 11.927121508644991, 0]
+				Low[3: -11.927121508644992, -11.927121508644991, 0]
+				High[3: 11.927121508644991, 11.927121508644992, 0]
 				Exact=true
 				Valid=true
 			$end 'BoundingBox'

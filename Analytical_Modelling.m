@@ -4,7 +4,7 @@ close all
 
 
 % Problem constants (in meters)
-lgclearance=0.5*10^(-3);    % air-gap clearance
+lgclearance=0.5*(10^-3);    % air-gap clearance
 dcore=20*(10^-3);           % core depth
 N=250;                      % number of turns
 Idc=3;                      % coil current (DC)
@@ -66,14 +66,14 @@ subplot(4,1,1)
 plot(x,Rtot)
 ylabel('Reluctance [1/H]')
 subplot(4,1,2)
-plot(x,L*1e3)
-ylabel('Inductance [mH]')
-subplot(4,1,3)
-plot(x,W)
-ylabel('Energy [W]')
-subplot(4,1,4)
-plot(x(1:359),T*1e3)
-ylabel('Torque [mN.m]')
+plot(x,L)
+ylabel('Inductance [H]')
+% subplot(4,1,3)
+% plot(x,W)
+% ylabel('Energy [W]')
+% subplot(4,1,4)
+% plot(x(1:359),T*1e3)
+% ylabel('Torque [mN.m]')
 
 
 
