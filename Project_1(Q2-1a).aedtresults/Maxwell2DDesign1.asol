@@ -1,36 +1,26 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000001, min=000000000022, sec=000000000019)
+    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000012, min=000000000037, sec=000000000012)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000002159, lin=000000000074, lvl=000000000000)
+    $index$(pos=000000003139, lin=000000000119, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock10'
-	SolutionName='Transient'
-	SolutionID=651
-	V=932
-	$begin 'States'
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies()
-		SolutionType=1
-		CenterFreq=0
-	$end 'Definition'
-$end 'SolutionBlock10'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=650, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
-	'SolutionKey(SimSetup=650, Instance=\'SolutionDefinition\', Solution=651, VersionID=932)'='SolutionBlock10'
-$end 'BlockMapName'
 $begin 'SolutionBlock3'
 	SimSetupID=650
 	SimSetupName='Setup1'
 	VersionID=0
 	SolveSetupID=2
+	$begin 'CurrMeshes'
+		IDDblMap(973, 6)
+		$begin 'DataMap'
+			VID=859
+			Ver=932
+			M(DblID=973, Dir='DV859_S650_V932.cmesh973/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
 	$begin 'StartingMesh'
 		IDDblMap(854, -1)
 		$begin 'DataMap'
@@ -58,13 +48,68 @@ $begin 'SolutionBlock3'
 		AMO(VID=859, Ver=0, File='DV859_S650_V0.amo')
 	$end 'AMOsetup'
 $end 'SolutionBlock3'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=650, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=650, Instance=\'SolutionDefinition\', Solution=651, VersionID=932)'='SolutionBlock10'
+$end 'BlockMapName'
+$begin 'SolutionBlock10'
+	SolutionName='Transient'
+	SolutionID=651
+	V=932
+	$begin 'States'
+		F(VID=859, Ver=932)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(974, 6)
+		$begin 'DataMap'
+			VID=859
+			Ver=932
+			Field(DblID=974, Dir='DV859_SOL651_V932.Field974/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=8
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PD(VID=859, Ver=0, File='DV859_SOL651_PD0_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=0
+			PD(VID=859, Ver=0, File='DV859_SOL651_PD1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=0
+			PD(VID=859, Ver=0, File='DV859_SOL651_PD2_V0.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=859, Ver=932, File='DV859_SOL651_NFSP10_V932.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=859, Ver=932, Dir='DV859_SOL651_V932.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock10'
 $begin 'SolutionBlock1'
 	ProductName=''
 	CircuitName='Maxwell2DDesign1'
 	VersionID=648
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=944
+	NextUniqueID=976
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=859)
@@ -83,11 +128,11 @@ $begin 'SolutionBlock1'
 $end 'SolutionBlock1'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock1(pos=1654, lin=51, lvl=0)
-		SolutionBlock10(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=617, lin=14, lvl=0)
-		SolutionBlock3(pos=899, lin=19, lvl=0)
+		BlockMapName(pos=1291, lin=41, lvl=0)
+		SolutionBlock10(pos=1573, lin=46, lvl=0)
+		SolutionBlock3(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=2634, lin=96, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=2159, lin=74, lvl=0)
+		$index$(pos=3139, lin=119, lvl=0)
 	$end '$index$'
 $end '$index$'

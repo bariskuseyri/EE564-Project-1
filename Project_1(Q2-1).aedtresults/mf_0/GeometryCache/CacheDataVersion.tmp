@@ -1,6 +1,6 @@
 $begin 'CacheDataVersion'
-	DataVersion=27
+	DataVersion=-1
 $end 'CacheDataVersion'
 $begin 'VariableValues'
-	theta_rot='45deg'
+	theta_rot='0deg'
 $end 'VariableValues'

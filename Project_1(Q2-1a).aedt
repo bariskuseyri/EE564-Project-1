@@ -2801,7 +2801,7 @@ $begin 'AnsoftProject'
 					PlotDefinitionType='Mesh_field_type'
 					PlotName='Mesh1'
 					PlotDefinitionId=15
-					VersionID=79
+					VersionID=87
 					SolutionId=651
 					UserSpecifyName=0
 					UserSpecifyFolder=0
@@ -2854,9 +2854,12 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('L(Winding1,Winding1)', 1, 22, false, SimValueID=874, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Moving1.LoadTorque', 1, 125, false, SimValueID=906, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Mag_B', 1, 103, false, SimValueID=907, 3, 0, 2, 0, false, false, 92, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Moving1.LoadTorque', 1, 125, false, SimValueID=955, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Moving1.Torque', 1, 125, false, SimValueID=956, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Moving1.LoadTorque', 1, 125, false, SimValueID=957, 3, 0, 2, 0, false, false, 5, 1, 0, 1, 1, '', 0, 0)
+						SimValue('LoadTorque', 1, 125, false, SimValueID=958, 3, 0, 2, 0, false, false, 5, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Torque', 1, 125, false, SimValueID=959, 3, 0, 2, 0, false, false, 5, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Winding1,Winding1)', 1, 22, false, SimValueID=975, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -2958,17 +2961,17 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View(WindowPos(3, -1, -1, -16, -72, -150, 122, 2166, 756), OrientationMatrix(0.899997413158417, -2.98023223876953e-08, 3.57627868652344e-07, 0, -2.98023223876953e-08, 0.899996638298035, -2.60770303128766e-08, 0, 3.57627868652344e-07, -2.23517400144146e-08, 0.899996399879456, 0, 0.957595825195313, -4.98602867126465, -0.2315673828125, 1, 0, -72.1300582885742, 59.1124496459961, -40.4546432495117, 33.1135482788086, -258.25390625, 202.584381103516), Drawings[11: 'Core', 'Rotor_Region', 'Rotor', 'Coil_positive', 'Coil_negative', 'Rotating_Region_Length', 'Coil_Positive_Length', 'Coil_Negative_Length', 'Rotor_Length', 'Core_Length', 'Background_Length'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=2, dYForGrid=2, dZForGrid=2, dRForGrid=2, dThetaForGrid=10), 'View Solution Context'('Solution ID'=651, 'View IntrinsicVar'='Time=\'-1s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View(WindowPos(3, -1, -1, -16, -72, -150, 122, 2166, 756), OrientationMatrix(0.899997413158417, -2.98023223876953e-08, 3.57627868652344e-07, 0, -2.98023223876953e-08, 0.899996638298035, -2.60770303128766e-08, 0, 3.57627868652344e-07, -2.23517400144146e-08, 0.899996399879456, 0, 0.957595825195313, -4.98602867126465, -0.2315673828125, 1, 0, -81.6506423950195, 68.6330337524414, -40.4546432495117, 33.1135482788086, -258.25390625, 202.584381103516), Drawings[11: 'Core', 'Rotor_Region', 'Rotor', 'Coil_positive', 'Coil_negative', 'Rotating_Region_Length', 'Coil_Positive_Length', 'Coil_Negative_Length', 'Rotor_Length', 'Core_Length', 'Background_Length'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=2, dYForGrid=2, dZForGrid=2, dRForGrid=2, dThetaForGrid=10), 'View Solution Context'('Solution ID'=651, 'View IntrinsicVar'='Time=\'-1s\''), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
 					$begin 'ReportManager'
 						$begin 'Reports'
 						$end 'Reports'
-						NextUniqueID=40
+						NextUniqueID=51
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=40
+							NextUniqueID=52
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -3107,7 +3110,7 @@ arKdNyhGMYNvSTb+GS2cF379DK1ac6TnCMI0227Tcn8Mo2s4R6y79D//2Q=='
 		DesignName='Maxwell2DDesign1'
 		Notes=''
 		Factory='Maxwell 2D'
-		IsSolved=false
+		IsSolved=true
 		'Nominal Setups'[1: 'Setup1']
 		'Nominal Setup Types'[1: '']
 		'Optimetrics Setups'[0:]

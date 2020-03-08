@@ -1,0 +1,205 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000016, min=000000000055, sec=000000000012)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000008387, lin=000000000186, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock12'
+	SimSetupID=650
+	SimSetupName='Setup1'
+	VersionID=2034
+	SolveSetupID=2
+	$begin 'CurrMeshes'
+		IDDblMap(2343, 0, 2345, 0.001, 2347, 0.002, 2349, 0.003, 2351, 0.004, 2353, 0.005, 2355, 0.006, 2357, 0.007, 2359, 0.008, 2361, 0.009000000000000001, 2363, 0.01, 2365, 0.011, 2367, 0.012, 2369, 0.013, 2371, 0.01400000000000001, 2373, 0.01500000000000001, 2375, 0.01600000000000001, 2377, 0.01700000000000001, 2379, 0.01800000000000001, 2381, 0.01900000000000001, 2383, 0.02000000000000001, 2385, 0.02100000000000001, 2387, 0.02200000000000001, 2389, 0.02300000000000001, 2391, 0.02400000000000001, 2393, 0.02500000000000002, 2395, 0.02600000000000002, 2397, 0.02700000000000002, 2399, 0.02800000000000002, 2401, 0.02900000000000002, 2403, 0.03000000000000002, 2405, 0.03100000000000002, 2407, 0.03200000000000002, 2409, 0.3)
+		$begin 'DataMap'
+			VID=2315
+			Ver=2034
+			M(DblID=2343, Dir='DV2315_S650_V2034.cmesh2343/')
+			M(DblID=2345, Dir='DV2315_S650_V2034.cmesh2345/')
+			M(DblID=2347, Dir='DV2315_S650_V2034.cmesh2347/')
+			M(DblID=2349, Dir='DV2315_S650_V2034.cmesh2349/')
+			M(DblID=2351, Dir='DV2315_S650_V2034.cmesh2351/')
+			M(DblID=2353, Dir='DV2315_S650_V2034.cmesh2353/')
+			M(DblID=2355, Dir='DV2315_S650_V2034.cmesh2355/')
+			M(DblID=2357, Dir='DV2315_S650_V2034.cmesh2357/')
+			M(DblID=2359, Dir='DV2315_S650_V2034.cmesh2359/')
+			M(DblID=2361, Dir='DV2315_S650_V2034.cmesh2361/')
+			M(DblID=2363, Dir='DV2315_S650_V2034.cmesh2363/')
+			M(DblID=2365, Dir='DV2315_S650_V2034.cmesh2365/')
+			M(DblID=2367, Dir='DV2315_S650_V2034.cmesh2367/')
+			M(DblID=2369, Dir='DV2315_S650_V2034.cmesh2369/')
+			M(DblID=2371, Dir='DV2315_S650_V2034.cmesh2371/')
+			M(DblID=2373, Dir='DV2315_S650_V2034.cmesh2373/')
+			M(DblID=2375, Dir='DV2315_S650_V2034.cmesh2375/')
+			M(DblID=2377, Dir='DV2315_S650_V2034.cmesh2377/')
+			M(DblID=2379, Dir='DV2315_S650_V2034.cmesh2379/')
+			M(DblID=2381, Dir='DV2315_S650_V2034.cmesh2381/')
+			M(DblID=2383, Dir='DV2315_S650_V2034.cmesh2383/')
+			M(DblID=2385, Dir='DV2315_S650_V2034.cmesh2385/')
+			M(DblID=2387, Dir='DV2315_S650_V2034.cmesh2387/')
+			M(DblID=2389, Dir='DV2315_S650_V2034.cmesh2389/')
+			M(DblID=2391, Dir='DV2315_S650_V2034.cmesh2391/')
+			M(DblID=2393, Dir='DV2315_S650_V2034.cmesh2393/')
+			M(DblID=2395, Dir='DV2315_S650_V2034.cmesh2395/')
+			M(DblID=2397, Dir='DV2315_S650_V2034.cmesh2397/')
+			M(DblID=2399, Dir='DV2315_S650_V2034.cmesh2399/')
+			M(DblID=2401, Dir='DV2315_S650_V2034.cmesh2401/')
+			M(DblID=2403, Dir='DV2315_S650_V2034.cmesh2403/')
+			M(DblID=2405, Dir='DV2315_S650_V2034.cmesh2405/')
+			M(DblID=2407, Dir='DV2315_S650_V2034.cmesh2407/')
+			M(DblID=2409, Dir='DV2315_S650_V2034.cmesh2409/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(2341, -1)
+		$begin 'DataMap'
+			VID=2315
+			Ver=2034
+			SM(DblID=2341, Dir='DV2315_S650_V2034.smesh2341/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=2315, Ver=2034, ID=0, ID=1, ID=2, ID=3, ID=4, ID=6)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=2315, Ver=2034, File='DV2315_S650_V2034.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=2315, Ver=2034, Dir='DV2315_S650_MI0_V2034.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=2315, Ver=2034, Dir='DV2315_S650_V2034_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=2315, Ver=2034, File='DV2315_S650_V2034.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock12'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=650, Instance=\'SetupDefinition\', Solution=-1, VersionID=2034)'='SolutionBlock12'
+	'SolutionKey(SimSetup=650, Instance=\'SolutionDefinition\', Solution=651, VersionID=2034)'='SolutionBlock11'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=2034
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2414
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=1986)
+		Map(V='theta_rot=\'0deg\'', ID=2315)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=2315, Ver=2034, Dir='DV2315_V2034.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=2315, Ver=2034, Dir='DV2315_MI0_V2034.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock11'
+	SolutionName='Transient'
+	SolutionID=651
+	V=2034
+	$begin 'States'
+		F(VID=2315, Ver=2034)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(2344, 0, 2346, 0.001, 2348, 0.002, 2350, 0.003, 2352, 0.004, 2354, 0.005, 2356, 0.006, 2358, 0.007, 2360, 0.008, 2362, 0.009000000000000001, 2364, 0.01, 2366, 0.011, 2368, 0.012, 2370, 0.013, 2372, 0.01400000000000001, 2374, 0.01500000000000001, 2376, 0.01600000000000001, 2378, 0.01700000000000001, 2380, 0.01800000000000001, 2382, 0.01900000000000001, 2384, 0.02000000000000001, 2386, 0.02100000000000001, 2388, 0.02200000000000001, 2390, 0.02300000000000001, 2392, 0.02400000000000001, 2394, 0.02500000000000002, 2396, 0.02600000000000002, 2398, 0.02700000000000002, 2400, 0.02800000000000002, 2402, 0.02900000000000002, 2404, 0.03000000000000002, 2406, 0.03100000000000002, 2408, 0.03200000000000002, 2410, 0.3)
+		$begin 'DataMap'
+			VID=2315
+			Ver=2034
+			Field(DblID=2344, Dir='DV2315_SOL651_V2034.Field2344/')
+			Field(DblID=2346, Dir='DV2315_SOL651_V2034.Field2346/')
+			Field(DblID=2348, Dir='DV2315_SOL651_V2034.Field2348/')
+			Field(DblID=2350, Dir='DV2315_SOL651_V2034.Field2350/')
+			Field(DblID=2352, Dir='DV2315_SOL651_V2034.Field2352/')
+			Field(DblID=2354, Dir='DV2315_SOL651_V2034.Field2354/')
+			Field(DblID=2356, Dir='DV2315_SOL651_V2034.Field2356/')
+			Field(DblID=2358, Dir='DV2315_SOL651_V2034.Field2358/')
+			Field(DblID=2360, Dir='DV2315_SOL651_V2034.Field2360/')
+			Field(DblID=2362, Dir='DV2315_SOL651_V2034.Field2362/')
+			Field(DblID=2364, Dir='DV2315_SOL651_V2034.Field2364/')
+			Field(DblID=2366, Dir='DV2315_SOL651_V2034.Field2366/')
+			Field(DblID=2368, Dir='DV2315_SOL651_V2034.Field2368/')
+			Field(DblID=2370, Dir='DV2315_SOL651_V2034.Field2370/')
+			Field(DblID=2372, Dir='DV2315_SOL651_V2034.Field2372/')
+			Field(DblID=2374, Dir='DV2315_SOL651_V2034.Field2374/')
+			Field(DblID=2376, Dir='DV2315_SOL651_V2034.Field2376/')
+			Field(DblID=2378, Dir='DV2315_SOL651_V2034.Field2378/')
+			Field(DblID=2380, Dir='DV2315_SOL651_V2034.Field2380/')
+			Field(DblID=2382, Dir='DV2315_SOL651_V2034.Field2382/')
+			Field(DblID=2384, Dir='DV2315_SOL651_V2034.Field2384/')
+			Field(DblID=2386, Dir='DV2315_SOL651_V2034.Field2386/')
+			Field(DblID=2388, Dir='DV2315_SOL651_V2034.Field2388/')
+			Field(DblID=2390, Dir='DV2315_SOL651_V2034.Field2390/')
+			Field(DblID=2392, Dir='DV2315_SOL651_V2034.Field2392/')
+			Field(DblID=2394, Dir='DV2315_SOL651_V2034.Field2394/')
+			Field(DblID=2396, Dir='DV2315_SOL651_V2034.Field2396/')
+			Field(DblID=2398, Dir='DV2315_SOL651_V2034.Field2398/')
+			Field(DblID=2400, Dir='DV2315_SOL651_V2034.Field2400/')
+			Field(DblID=2402, Dir='DV2315_SOL651_V2034.Field2402/')
+			Field(DblID=2404, Dir='DV2315_SOL651_V2034.Field2404/')
+			Field(DblID=2406, Dir='DV2315_SOL651_V2034.Field2406/')
+			Field(DblID=2408, Dir='DV2315_SOL651_V2034.Field2408/')
+			Field(DblID=2410, Dir='DV2315_SOL651_V2034.Field2410/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=8
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PD(VID=2315, Ver=0, File='DV2315_SOL651_PD0_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=0
+			PD(VID=2315, Ver=0, File='DV2315_SOL651_PD1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=0
+			PD(VID=2315, Ver=0, File='DV2315_SOL651_PD2_V0.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=2315, Ver=2034, File='DV2315_SOL651_NFSP10_V2034.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=2315, Ver=2034, Dir='DV2315_SOL651_V2034.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock11'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=3806, lin=74, lvl=0)
+		SolutionBlock11(pos=4648, lin=103, lvl=0)
+		SolutionBlock12(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=4093, lin=79, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=8387, lin=186, lvl=0)
+	$end '$index$'
+$end '$index$'

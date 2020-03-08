@@ -58,22 +58,27 @@ FL=Flux.*N;
 L=FL./Idc;
 L2=(N^2)./Rtot;
 
+
+xr=x;
 W=(1/2)*L*(Idc)^2;
-T=diff(W);
+
+T=diff(W)./diff(xr);
+
 
 
 subplot(4,1,1)
-plot(x,Rtot)
+plot(xr,Rtot)
 ylabel('Reluctance [1/H]')
 subplot(4,1,2)
-plot(x,L)
-ylabel('Inductance [H]')
-% subplot(4,1,3)
-% plot(x,W)
-% ylabel('Energy [W]')
-% subplot(4,1,4)
-% plot(x(1:359),T*1e3)
-% ylabel('Torque [mN.m]')
+plot(xr,L*1e3)
+ylabel('Inductance [mH]')
+subplot(4,1,3)
+plot(xr,W)
+ylabel('Energy [W]')
+subplot(4,1,4)
+plot(xr(1:359),T*1e3)
+ylabel('Torque [mN.m]')
+xlabel('Position [rad]')
 
 
 

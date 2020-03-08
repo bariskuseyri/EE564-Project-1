@@ -1,56 +1,90 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000001, min=000000000034, sec=000000000058)
+    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000019, min=000000000014, sec=000000000054)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000004159, lin=000000000143, lvl=000000000000)
+    $index$(pos=000000006628, lin=000000000202, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock58'
+$begin 'SolutionBlock382'
 	SimSetupID=895
 	SimSetupName='Setup1'
-	VersionID=1192
+	VersionID=2398
 	SolveSetupID=3
 	$begin 'CurrMeshes'
-		IDDblMap(1226, 1, 1229, 2, 1230, 3, 1251, 4, 1274, 5)
+		IDDblMap(1454, 1, 1457, 2, 1458, 3, 1461, 4, 1468, 5)
 		$begin 'DataMap'
-			VID=1308
-			Ver=1192
-			M(DblID=1230, Dir='DV1308_S895_V1192.cmesh1230/')
-			M(DblID=1251, Dir='DV1308_S895_V1192.cmesh1251/')
+			VID=1766
+			Ver=2398
+			M(DblID=1458, Dir='DV1766_S895_V2398.cmesh1458/')
+			M(DblID=1461, Dir='DV1766_S895_V2398.cmesh1461/')
 		$end 'DataMap'
 	$end 'CurrMeshes'
 	$begin 'LastPassNumbers'
-		LP(VID=1308, Ver=1192, P=3)
+		LP(VID=1766, Ver=2398, P=3)
 	$end 'LastPassNumbers'
 	$begin 'Profiles'
-		P(VID=1308, Ver=1192, File='DV1308_S895_V1192.profile')
+		P(VID=1766, Ver=2398, File='DV1766_S895_V2398.profile')
 	$end 'Profiles'
 	$begin 'MI'
 		$begin 'SubData'
 			ID=0
-			MI(VID=1308, Ver=1192, Dir='DV1308_S895_MI0_V1192.sd/')
+			MI(VID=1766, Ver=2398, Dir='DV1766_S895_MI0_V2398.sd/')
 		$end 'SubData'
 	$end 'MI'
 	$begin 'MeshGeomInfo'
-		MGI(VID=1308, Ver=1192, Dir='DV1308_S895_V1192_MGI/')
+		MGI(VID=1766, Ver=2398, Dir='DV1766_S895_V2398_MGI/')
 	$end 'MeshGeomInfo'
-$end 'SolutionBlock58'
+$end 'SolutionBlock382'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=895, Instance=\'SetupDefinition\', Solution=-1, VersionID=1192)'='SolutionBlock58'
-	'SolutionKey(SimSetup=895, Instance=\'SolutionDefinition\', Solution=896, VersionID=1341)'='SolutionBlock84'
-	'SolutionKey(SimSetup=895, Instance=\'SolutionDefinition\', Solution=897, VersionID=1341)'='SolutionBlock85'
-	'SolutionKey(SimSetup=895, Instance=\'theta_rot=\\\'45deg\\\'\', Solution=-3, VersionID=1192)'='SolutionBlock81'
+	'SolutionKey(SimSetup=895, Instance=\'SetupDefinition\', Solution=-1, VersionID=2398)'='SolutionBlock382'
+	'SolutionKey(SimSetup=895, Instance=\'SolutionDefinition\', Solution=896, VersionID=2398)'='SolutionBlock380'
+	'SolutionKey(SimSetup=895, Instance=\'SolutionDefinition\', Solution=897, VersionID=2398)'='SolutionBlock381'
+	'SolutionKey(SimSetup=895, Instance=\'theta_rot=\\\'0deg\\\'\', Solution=-3, VersionID=2398)'='SolutionBlock383'
 $end 'BlockMapName'
-$begin 'SolutionBlock85'
+$begin 'SolutionBlock380'
+	SolutionName='AdaptivePass'
+	SolutionID=896
+	V=2398
+	$begin 'States'
+		F(VID=1766, Ver=2398)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=97
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=7
+			Ver=94
+			PAR(VID=1766, Ver=94, File='DV1766_SOL896_PAR7_V94.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			Ver=94
+			PAR(VID=1766, Ver=94, File='DV1766_SOL896_PAR8_V94.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=1766, Ver=2398, File='DV1766_SOL896_NFSP10_V2398.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock380'
+$begin 'SolutionBlock381'
 	SolutionName='LastAdaptive'
 	SolutionID=897
-	V=1341
+	V=2398
 	$begin 'States'
-		F(VID=1308, Ver=1341)
+		F(VID=1766, Ver=2398)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -59,106 +93,134 @@ $begin 'SolutionBlock85'
 		CenterFreq=0
 	$end 'Definition'
 	$begin 'Fields'
-		IDDblMap(1228, -1)
+		IDDblMap(1456, -1)
 		$begin 'DataMap'
-			VID=1308
-			Ver=1341
-			Field(DblID=1228, Dir='DV1308_SOL897_V1341.Field1228/')
+			VID=1766
+			Ver=2398
+			Field(DblID=1456, Dir='DV1766_SOL897_V2398.Field1456/')
 		$end 'DataMap'
 	$end 'Fields'
 	$begin 'PAR'
-		NextUniqueID=33
+		NextUniqueID=105
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=7
-			Ver=30
-			PAR(VID=1308, Ver=30, File='DV1308_SOL897_PAR7_V30.sd')
+			Ver=102
+			PAR(VID=1766, Ver=102, File='DV1766_SOL897_PAR7_V102.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=8
-			Ver=30
-			PAR(VID=1308, Ver=30, File='DV1308_SOL897_PAR8_V30.sd')
+			Ver=102
+			PAR(VID=1766, Ver=102, File='DV1766_SOL897_PAR8_V102.sd')
 		$end 'SubData'
 	$end 'PAR'
-$end 'SolutionBlock85'
-$begin 'SolutionBlock84'
-	SolutionName='AdaptivePass'
-	SolutionID=896
-	V=1341
-	$begin 'States'
-		F(VID=1308, Ver=1341)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies()
-		SolutionType=1
-		CenterFreq=0
-	$end 'Definition'
-	$begin 'PAR'
-		NextUniqueID=29
-		MoveBackwards=false
+$end 'SolutionBlock381'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=2398
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2432
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=1076)
+		Map(V='theta_rot=\'-10deg\'', ID=2296)
+		Map(V='theta_rot=\'-14.999999999999998deg\'', ID=2295)
+		Map(V='theta_rot=\'-20deg\'', ID=2294)
+		Map(V='theta_rot=\'-25deg\'', ID=2293)
+		Map(V='theta_rot=\'-29.999999999999996deg\'', ID=2292)
+		Map(V='theta_rot=\'-35deg\'', ID=2291)
+		Map(V='theta_rot=\'-40deg\'', ID=2290)
+		Map(V='theta_rot=\'-45deg\'', ID=2289)
+		Map(V='theta_rot=\'-50deg\'', ID=2288)
+		Map(V='theta_rot=\'-55deg\'', ID=2287)
+		Map(V='theta_rot=\'-59.999999999999993deg\'', ID=2286)
+		Map(V='theta_rot=\'-5deg\'', ID=2297)
+		Map(V='theta_rot=\'-65deg\'', ID=2284)
+		Map(V='theta_rot=\'-70deg\'', ID=2283)
+		Map(V='theta_rot=\'-75deg\'', ID=2281)
+		Map(V='theta_rot=\'-80deg\'', ID=2285)
+		Map(V='theta_rot=\'-85deg\'', ID=2282)
+		Map(V='theta_rot=\'-90deg\'', ID=2280)
+		Map(V='theta_rot=\'0deg\'', ID=1766)
+		Map(V='theta_rot=\'100deg\'', ID=1593)
+		Map(V='theta_rot=\'105deg\'', ID=1594)
+		Map(V='theta_rot=\'10deg\'', ID=2264)
+		Map(V='theta_rot=\'110deg\'', ID=1595)
+		Map(V='theta_rot=\'115deg\'', ID=1596)
+		Map(V='theta_rot=\'119.99999999999999deg\'', ID=1597)
+		Map(V='theta_rot=\'125.00000000000001deg\'', ID=1598)
+		Map(V='theta_rot=\'130deg\'', ID=1599)
+		Map(V='theta_rot=\'135deg\'', ID=1600)
+		Map(V='theta_rot=\'14.999999999999998deg\'', ID=2262)
+		Map(V='theta_rot=\'140deg\'', ID=1601)
+		Map(V='theta_rot=\'145deg\'', ID=1602)
+		Map(V='theta_rot=\'150deg\'', ID=1603)
+		Map(V='theta_rot=\'155deg\'', ID=1604)
+		Map(V='theta_rot=\'160deg\'', ID=1605)
+		Map(V='theta_rot=\'165deg\'', ID=1606)
+		Map(V='theta_rot=\'170deg\'', ID=1607)
+		Map(V='theta_rot=\'175deg\'', ID=1608)
+		Map(V='theta_rot=\'180deg\'', ID=1609)
+		Map(V='theta_rot=\'20deg\'', ID=2265)
+		Map(V='theta_rot=\'25deg\'', ID=2266)
+		Map(V='theta_rot=\'29.999999999999996deg\'', ID=2267)
+		Map(V='theta_rot=\'35deg\'', ID=2268)
+		Map(V='theta_rot=\'40deg\'', ID=2269)
+		Map(V='theta_rot=\'45deg\'', ID=2270)
+		Map(V='theta_rot=\'50deg\'', ID=2271)
+		Map(V='theta_rot=\'55deg\'', ID=2272)
+		Map(V='theta_rot=\'59.999999999999993deg\'', ID=2273)
+		Map(V='theta_rot=\'5deg\'', ID=2263)
+		Map(V='theta_rot=\'65deg\'', ID=2274)
+		Map(V='theta_rot=\'70deg\'', ID=2275)
+		Map(V='theta_rot=\'75deg\'', ID=2276)
+		Map(V='theta_rot=\'80deg\'', ID=2277)
+		Map(V='theta_rot=\'85deg\'', ID=2278)
+		Map(V='theta_rot=\'90deg\'', ID=2279)
+		Map(V='theta_rot=\'95deg\'', ID=1592)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=1766, Ver=2398, Dir='DV1766_V2398.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
 		$begin 'SubData'
-			ID=7
-			Ver=26
-			PAR(VID=1308, Ver=26, File='DV1308_SOL896_PAR7_V26.sd')
+			ID=0
+			MI(VID=1766, Ver=2398, Dir='DV1766_MI0_V2398.sd/')
 		$end 'SubData'
-		$begin 'SubData'
-			ID=8
-			Ver=26
-			PAR(VID=1308, Ver=26, File='DV1308_SOL896_PAR8_V26.sd')
-		$end 'SubData'
-	$end 'PAR'
-	$begin 'NFSP'
-		$begin 'SubData'
-			ID=10
-			NFSP(VID=1308, Ver=1341, File='DV1308_SOL896_NFSP10_V1341.sd')
-		$end 'SubData'
-	$end 'NFSP'
-$end 'SolutionBlock84'
-$begin 'SolutionBlock81'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock383'
 	ConvSetupName='eConv'
 	MaxPasses='10'
 	MinPasses='2'
 	ConvTarget='(1, 1)'
 	ConvTargetConsecPasses='N/A'
 	ConvCurrentConsecPasses='N/A'
-	c(te=5.944208519907715, p=1, tri=692, ee=0.4025220671414443, de_ee='(0.40252, N/A)')
-	c(te=3.237666234866623, p=2, tri=900, ee=0.1886774462994678, de_ee='(0.18868, 45.532)', de=45.53242498099834)
-	c(te=3.245113907515253, p=3, tri=1172, ee=0.1508324839142191, de_ee='(0.15083, 0.23003)', de=0.2300321314292893)
-$end 'SolutionBlock81'
-$begin 'SolutionBlock1'
-	ProductName=''
-	CircuitName='Maxwell2DDesign1'
-	VersionID=1192
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=1374
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='', ID=1076)
-		Map(V='theta_rot=\'45deg\'', ID=1308)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=1308, Ver=1192, Dir='DV1308_V1192.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=1308, Ver=1192, Dir='DV1308_MI0_V1192.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
+	c(p=1, tri=494, de_ee='(3.0583, N/A)', ee=3.058292360103776, te=3.836771250211971)
+	c(p=2, tri=692, de_ee='(0.40152, 5.5374)', ee=0.4015151827535589, de=5.537354244696247, te=4.049226865894869)
+	c(p=3, tri=912, de_ee='(0.26654, 0.82029)', ee=0.2665362438654094, de=0.8202927305167531, te=4.082442379517936)
+$end 'SolutionBlock383'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=1152, lin=31, lvl=0)
-		SolutionBlock81(pos=3108, lin=108, lvl=0)
-		SolutionBlock84(pos=2402, lin=74, lvl=0)
-		SolutionBlock85(pos=1663, lin=38, lvl=0)
-		SolutionBlock58(pos=370, lin=1, lvl=0)
-		SolutionBlock1(pos=3603, lin=119, lvl=0)
+		ResponseSurfaceCache(pos=6546, lin=199, lvl=0)
+		BlockMapName(pos=1154, lin=31, lvl=0)
+		SolutionBlock383(pos=5998, lin=186, lvl=0)
+		SolutionBlock380(pos=1668, lin=38, lvl=0)
+		SolutionBlock381(pos=2376, lin=72, lvl=0)
+		SolutionBlock382(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=3124, lin=108, lvl=0)
+		OptimetricsResults(pos=6492, lin=197, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=4159, lin=143, lvl=0)
+		$index$(pos=6628, lin=202, lvl=0)
 	$end '$index$'
 $end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

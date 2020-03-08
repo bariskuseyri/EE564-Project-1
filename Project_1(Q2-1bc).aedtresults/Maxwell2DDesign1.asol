@@ -1,0 +1,138 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000015, min=000000000035, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003164, lin=000000000119, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock5'
+	SimSetupID=650
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=2
+	$begin 'CurrMeshes'
+		IDDblMap(890, 30, 894, 5)
+		$begin 'DataMap'
+			VID=893
+			Ver=874
+			M(DblID=894, Dir='DV893_S650_V874.cmesh894/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(888, -1)
+		$begin 'DataMap'
+			VID=893
+			Ver=0
+			SM(DblID=888, Dir='DV893_S650_V0.smesh888/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=893, Ver=0, ID=0, ID=1, ID=2, ID=3, ID=4, ID=5)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=893, Ver=0, File='DV893_S650_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=893, Ver=0, Dir='DV893_S650_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=893, Ver=0, Dir='DV893_S650_V0_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=893, Ver=0, File='DV893_S650_V0.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock5'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=650, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=650, Instance=\'SolutionDefinition\', Solution=651, VersionID=874)'='SolutionBlock9'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=648
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=933
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=893)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=893, Ver=648, Dir='DV893_V648.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=893, Ver=648, Dir='DV893_MI0_V648.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock9'
+	SolutionName='Transient'
+	SolutionID=651
+	V=874
+	$begin 'States'
+		F(VID=893, Ver=874)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(891, 30, 895, 5)
+		$begin 'DataMap'
+			VID=893
+			Ver=874
+			Field(DblID=895, Dir='DV893_SOL651_V874.Field895/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=36
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=21
+			PD(VID=893, Ver=21, File='DV893_SOL651_PD0_V21.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=21
+			PD(VID=893, Ver=21, File='DV893_SOL651_PD1_V21.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=21
+			PD(VID=893, Ver=21, File='DV893_SOL651_PD2_V21.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=893, Ver=874, File='DV893_SOL651_NFSP10_V874.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=893, Ver=874, Dir='DV893_SOL651_V874.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock9'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1300, lin=41, lvl=0)
+		SolutionBlock9(pos=2086, lin=69, lvl=0)
+		SolutionBlock5(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=1581, lin=46, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3164, lin=119, lvl=0)
+	$end '$index$'
+$end '$index$'

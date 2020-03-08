@@ -270,4 +270,43 @@ $begin 'Profile'
 		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
 		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:09:38 , Maxwell2D ComEngine Memory : 60.7 M', false, true)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/08/2020 12:38:17; Host: DESKTOP-GD9DPHB; Processor: 4; OS: NT 10.0; Maxwell 2D 2020.1.0'
+		TotalInfo='Time:  03/08/2020 12:38:18, Status: Normal Completion'
+		DisableTotalTimes=false
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\AnsysEM20.1\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'HPC Enabled', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('Design Validation', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 58.1 M', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Perform full validations', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:01 , Maxwell2D ComEngine Memory : 59 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/08/2020 15:25:08; Host: DESKTOP-GD9DPHB; Processor: 4; OS: NT 10.0; Maxwell 2D 2020.1.0'
+		TotalInfo='Time:  03/08/2020 15:25:09, Status: Normal Completion'
+		DisableTotalTimes=false
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\AnsysEM20.1\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'HPC Enabled', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('Design Validation', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 57.3 M', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Perform full validations', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 58.4 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/08/2020 22:04:45; Host: DESKTOP-GD9DPHB; Processor: 4; OS: NT 10.0; Maxwell 2D 2020.1.0'
+		TotalInfo='Time:  03/08/2020 22:04:45, Status: Normal Completion'
+		DisableTotalTimes=false
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\AnsysEM20.1\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'HPC Enabled', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('Design Validation', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 57.4 M', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Perform full validations', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Maxwell2D ComEngine Memory : 58.3 M', false, true)
+	$end 'ProfileGroup'
 $end 'Profile'

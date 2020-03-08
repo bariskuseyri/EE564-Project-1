@@ -1,0 +1,88 @@
+$begin 'ConEngineContinueData'
+	$begin 'MeshSettings'
+		$begin 'GlobalSurfApproximation'
+			CurvedSurfaceApproxChoice='UseSlider'
+			SliderMeshSettings=5
+		$end 'GlobalSurfApproximation'
+		$begin 'GlobalModelRes'
+			UseAutoLength=true
+		$end 'GlobalModelRes'
+		MeshMethod='AnsoftTAU'
+	$end 'MeshSettings'
+	$begin 'MeshOperations'
+		NextUniqueID=0
+		MoveBackwards=false
+		$begin 'Rotating_Region_Length'
+			RefineInside=true
+			ID=0
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(242)
+			RestrictElem=true
+			NumMaxElem='5000'
+			RestrictLength=false
+			MaxLength='4.9mm'
+		$end 'Rotating_Region_Length'
+		$begin 'Coil_Positive_Length'
+			RefineInside=true
+			ID=1
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(147)
+			RestrictElem=true
+			NumMaxElem='100'
+			RestrictLength=false
+			MaxLength='6mm'
+		$end 'Coil_Positive_Length'
+		$begin 'Coil_Negative_Length'
+			RefineInside=true
+			ID=2
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(159)
+			RestrictElem=true
+			NumMaxElem='100'
+			RestrictLength=false
+			MaxLength='6mm'
+		$end 'Coil_Negative_Length'
+		$begin 'Rotor_Length'
+			RefineInside=true
+			ID=3
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(129)
+			RestrictElem=true
+			NumMaxElem='1000'
+			RestrictLength=false
+			MaxLength='4.8mm'
+		$end 'Rotor_Length'
+		$begin 'Core_Length'
+			RefineInside=true
+			ID=4
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(92)
+			RestrictElem=true
+			NumMaxElem='1000'
+			RestrictLength=false
+			MaxLength='14mm'
+		$end 'Core_Length'
+		$begin 'Length1'
+			RefineInside=true
+			ID=6
+			Type='LengthBased'
+			IsComponent=false
+			Enabled=true
+			Objects(248)
+			RestrictElem=true
+			NumMaxElem='1000'
+			RestrictLength=false
+			MaxLength='34.4093010681705mm'
+		$end 'Length1'
+	$end 'MeshOperations'
+$end 'ConEngineContinueData'
